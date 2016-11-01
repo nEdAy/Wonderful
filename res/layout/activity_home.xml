@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/header_home" />
+
+    <com.xgr.wonderful.ui.ListScrollView
+        android:id="@+id/listScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:paddingBottom="65dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 校历 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape_radius_square"
+                android:padding="5dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/img_date"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape_radius_color_square" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img_date"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="校历 "
+                        android:textColor="#2F4F4F"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_week"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="第  10  周   星期六" />
+
+                    <TextView
+                        android:id="@+id/tv_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="2014 年  4 月 26 日"
+                        android:typeface="monospace" />
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- 图片轮播 -->
+
+            <FrameLayout
+                android:id="@+id/fl_image_ads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#ffDEDEDE"
+                android:padding="5dp"
+                android:visibility="gone" >
+
+                <com.xgr.wonderful.ui.AutoScrollViewPager
+                    android:id="@+id/view_pager"
+                    android:layout_width="400dp"
+                    android:layout_height="100dp" >
+                </com.xgr.wonderful.ui.AutoScrollViewPager>
+
+                <ImageButton
+                    android:id="@+id/btn_hide_ads"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="right|center"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/ic_banner_hide" />
+            </FrameLayout>
+        </LinearLayout>
+    </com.xgr.wonderful.ui.ListScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 校园新闻 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:text="校园动态"
+            android:textColor="#2F4F4F"
+            android:textSize="18sp" />
+
+        <!-- 新闻列表 -->
+
+        <ListView
+            android:id="@+id/lv_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:paddingBottom="10dp" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

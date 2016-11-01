@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first_zhong"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/start_btn"
+        style="@style/first_whatsnew_Txt"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/first_whatsnew_start_btn"
+        android:onClick="startbutton"
+        android:text="开始" />
+
+</LinearLayout>

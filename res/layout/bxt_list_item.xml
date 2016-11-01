@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:padding="8dp" >
+        
+         <!-- 标签 -->
+        <TextView
+            android:id="@+id/tv_bxt_news_item_label"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="已结束"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <!-- 讲坛标题 -->
+
+        <TextView
+            android:id="@+id/tv_bxt_news_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_bxt_news_item_label"
+            android:layout_marginLeft="8dp"
+            android:layout_centerVertical="true"
+            android:text="湖北工业大学第170期大学生“求索”科技讲坛预告"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

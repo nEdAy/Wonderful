@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/SUS_CUSTOMDEF_NOTIFICATION_LAYOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/SUS_NOTIFICATION_PROMPTINFO"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="5.0dip" >
+
+        <TextView
+            android:id="@+id/SUS_NOTIFICATION_AUTOHIDPROMPTINFOTEXTVIEW_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SUS_NOTIFICATION_AUTOHIDPROMPTINFOTEXTVIEW_TIME"
+            android:layout_width="24.0dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SUS_NOTIFICATION_AUTOHIDPROMPTINFOTEXTVIEW_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="5.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/SUS_NOTIFICATION_CONTINUEBUTTON"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/SUS_NOTIFICATION_HIDE_BUTTONTEXT"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/SUS_NOTIFICATION_ABORTUPDATEBUTTON"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/SUS_NOTIFICATION_ABORTUPDATE_BUTTONTEXT"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

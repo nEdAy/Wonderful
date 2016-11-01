@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<!-- Defalut layout when the data is empty -->
+
+    <TextView
+        android:id="@+id/ll_msg_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:drawablePadding="30dp"
+        android:drawableTop="@drawable/ic_empty"
+        android:gravity="center_horizontal"
+        android:text="没有更多数据了哦，请检查网络并尝试刷新"
+        android:textColor="#C0C0C0"
+        android:textSize="14sp"
+        android:visibility="gone" />
+    
+</LinearLayout>

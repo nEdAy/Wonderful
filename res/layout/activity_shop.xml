@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bkg_img_default"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header_shop" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="80dp" >
+
+            <!-- 购物小菜 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="校园服务"
+                    android:textColor="#FFFF8833"
+                    android:textSize="16sp"
+                    android:typeface="monospace" />
+
+                <View
+                    android:layout_width="65dp"
+                    android:layout_height="1.5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#FFFF8833" />
+
+                <com.xgr.wonderful.ui.MyGridView
+                    android:id="@+id/gv_gift_class"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:columnWidth="80dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="1dp"
+                    android:minHeight="90dp"
+                    android:numColumns="auto_fit"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="1dp" >
+                </com.xgr.wonderful.ui.MyGridView>
+            </LinearLayout>
+
+            <!-- 吃饭小菜 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="小菜点餐"
+                    android:textColor="#FFFF8833"
+                    android:textSize="16sp"
+                    android:typeface="monospace" />
+
+                <View
+                    android:layout_width="65dp"
+                    android:layout_height="1.5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#FFFF8833" />
+
+                <com.xgr.wonderful.ui.MyGridView
+                    android:id="@+id/gv_food_class"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:columnWidth="80dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="1dp"
+                    android:minHeight="90dp"
+                    android:numColumns="auto_fit"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="1dp" >
+                </com.xgr.wonderful.ui.MyGridView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

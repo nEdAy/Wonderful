@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="SUS_MSG_FAIL_NOWLANCONNECTED">请打开WLAN!</string>
+    <string name="SUS_MSG_LATESTVERSION">已是最新版本!</string>
+    <string name="SUS_MSG_NOTFOUND">没有找到可更新的版本!</string>
+    <string name="SUS_MSG_FAIL_NETWORKUNAVAILABLE">当前网络不可用!</string>
+    <string name="SUS_MSG_WARNING_PENDING">已有版本更新过程正在处理中!</string>
+    <string name="SUS_MSG_DOWNLOADCOMPLETE">下载完成!</string>
+    <string name="SUS_MSG_UPDATE_EXCEPTION">更新失败,请重试!</string>    
+    <string name="SUS_SETTINGS_NEVERPROMPT">不再提醒</string>
+	<string name="SUS_SETTINGS_NEWVERPROMPT">有新版本再提醒</string>
+    <string name="SUS_MSG_INSUFFICIENTSTORAGESPACE">存储空间不足!</string>
+    <string name="SUS_VERSIONUPDATE">检测到新版本!</string>
+    <string name="SUS_UPDATEDESC">更新说明:</string>
+    <string name="SUS_UPDATEVERPROMPT_VERNAME">版本名：</string>
+    <string name="SUS_UPDATEVERPROMPT_VERSIZE">版本大小：</string>
+    <string name="SUS_UPDATESIZEPROMPT_WLAN">若流量有限，建议用WLAN下载！</string>
+    <string name="SUS_UPDATE">立即更新</string>
+    <string name="SUS_CANCEL">以后再说</string>
+    <string name="SUS_DOWNLOAD_TITLE">SUS downloading</string>
+    <string name="SUS_CANCELBUTTON">取消</string>
+    <string name="SUS_NOTIFICATION_TITLE">提示</string>
+    <string name="SUS_NOTIFICATION_UPDATINGPROMPT">正在更新过程中...,请稍候！</string>
+    <string name="SUS_NOTIFICATION_TIMEOUTPROMPT">网络超时,正在重试更新...</string>
+    <string name="SUS_NOTIFICATION_HIDE_BUTTONTEXT">我知道了</string>
+    <string name="SUS_NOTIFICATION_ABORTUPDATE_BUTTONTEXT">取消更新</string>
+    <string name="SUS_NOTIFICATION_AUTOHIDPROMPTINFO_1">(本窗口将在 </string>
+    <string name="SUS_NOTIFICATION_AUTOHIDPROMPTINFO_2">秒后自动隐藏)</string>
+    <string name="SUS_NOTIFICATION_INSTALLAPK_TITLE">请点击安装应用！</string>
+    <string name="SUS_NOTIFICATION_INSTALLAPK">请点击安装应用：</string>
+</resources>

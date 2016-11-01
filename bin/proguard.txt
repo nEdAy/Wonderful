@@ -1,0 +1,296 @@
+# view res/layout/activity_shop_item.xml #generated:12
+-keep class android.support.v4.view.PagerTabStrip { <init>(...); }
+
+# view res/layout/first_viewpagers.xml #generated:13
+# view res/layout/include_chat_bottom_bar.xml #generated:112
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_bxt.xml #generated:9
+# view res/layout/activity_shop_all.xml #generated:27
+-keep class android.support.v4.widget.SwipeRefreshLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:319
+-keep class cn.bmob.im.poll.BmobPollService { <init>(...); }
+
+# view AndroidManifest.xml #generated:297
+-keep class cn.bmob.push.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:286
+-keep class cn.bmob.push.lib.service.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class cn.smssdk.SMSSDKUIShell { <init>(...); }
+
+# view AndroidManifest.xml #generated:275
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/activity_location.xml #generated:11
+# view res/layout/activity_mapview.xml #generated:9
+-keep class com.baidu.mapapi.map.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.bmob.im.demo.CustomApplcation { <init>(...); }
+
+# view AndroidManifest.xml #generated:309
+-keep class com.bmob.im.demo.MyMessageReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:259
+-keep class com.bmob.im.demo.ui.AddFriendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:257
+-keep class com.bmob.im.demo.ui.BlackListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:265
+-keep class com.bmob.im.demo.ui.ChatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+-keep class com.bmob.im.demo.ui.ImMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:258
+-keep class com.bmob.im.demo.ui.ImageBrowserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:256
+-keep class com.bmob.im.demo.ui.LocationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:263
+-keep class com.bmob.im.demo.ui.NearPeopleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:262
+-keep class com.bmob.im.demo.ui.NewFriendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:268
+-keep class com.bmob.im.demo.ui.SetMyInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:264
+-keep class com.bmob.im.demo.ui.UpdateInfoActivity { <init>(...); }
+
+# view res/layout/fragment_contacts.xml #generated:18
+# view res/layout/fragment_recent.xml #generated:12
+-keep class com.bmob.im.demo.view.ClearEditText { <init>(...); }
+
+# view res/layout/activity_showpicture.xml #generated:8
+-keep class com.bmob.im.demo.view.CustomViewPager { <init>(...); }
+
+# view res/layout/include_chat_bottom_bar.xml #generated:35
+-keep class com.bmob.im.demo.view.EmoticonsEditText { <init>(...); }
+
+# view res/layout/include_action_bar.xml #generated:2
+-keep class com.bmob.im.demo.view.HeaderLayout { <init>(...); }
+
+# view res/layout/fragment_contacts.xml #generated:64
+-keep class com.bmob.im.demo.view.MyLetterView { <init>(...); }
+
+# view res/layout/activity_add_contact.xml #generated:42
+# view res/layout/activity_chat.xml #generated:17
+# view res/layout/activity_near_people.xml #generated:18
+-keep class com.bmob.im.demo.view.xlist.XListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:395
+-keep class com.lenovo.lps.sus.control.SUSCustdefNotificationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:399
+-keep class com.lenovo.lps.sus.control.SUSNotificationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:391
+-keep class com.lenovo.lps.sus.control.SUSPromptActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:325
+-keep class com.umeng.message.NotificationProxyBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:329
+-keep class com.umeng.message.RegistrationReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:339
+-keep class com.umeng.message.UmengBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:375
+-keep class com.umeng.message.UmengDownloadResourceService { <init>(...); }
+
+# view AndroidManifest.xml #generated:373
+-keep class com.umeng.message.UmengIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:351
+-keep class com.umeng.message.UmengService { <init>(...); }
+
+# view AndroidManifest.xml #generated:234
+-keep class com.xgr.wonderful.electric.ElectricActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.xgr.wonderful.firstuse.WelcomeA { <init>(...); }
+
+# view AndroidManifest.xml #generated:248
+-keep class com.xgr.wonderful.firstuse.WhatsnewAnimationA { <init>(...); }
+
+# view AndroidManifest.xml #generated:244
+-keep class com.xgr.wonderful.firstuse.WhatsnewPagesA { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:87
+-keep class com.xgr.wonderful.ui.AutoScrollViewPager { <init>(...); }
+
+# view res/layout/activity_award.xml #generated:80
+-keep class com.xgr.wonderful.ui.EraseView { <init>(...); }
+
+# view res/layout/activity_webview.xml #generated:23
+-keep class com.xgr.wonderful.ui.LJWebView { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:12
+-keep class com.xgr.wonderful.ui.ListScrollView { <init>(...); }
+
+# view res/layout/activity_shop.xml #generated:48
+# view res/layout/activity_shop.xml #generated:88
+-keep class com.xgr.wonderful.ui.MyGridView { <init>(...); }
+
+# view res/layout/activity_finder.xml #generated:34
+# view res/layout/activity_finder.xml #generated:42
+# view res/layout/activity_finder.xml #generated:51
+# view res/layout/activity_finder.xml #generated:65
+# view res/layout/activity_finder.xml #generated:73
+# view res/layout/activity_finder.xml #generated:85
+-keep class com.xgr.wonderful.ui.MyImageView { <init>(...); }
+
+# view res/layout/activity_shop_item.xml #generated:6
+-keep class com.xgr.wonderful.ui.ViewPagerCompat { <init>(...); }
+
+# view AndroidManifest.xml #generated:227
+-keep class com.xgr.wonderful.view.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class com.xgr.wonderful.view.Activity_Circle { <init>(...); }
+
+# view AndroidManifest.xml #generated:231
+-keep class com.xgr.wonderful.view.AttendanceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:180
+-keep class com.xgr.wonderful.view.AwardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.xgr.wonderful.view.BXTActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:223
+-keep class com.xgr.wonderful.view.BXTNewsActivity { <init>(...); }
+
+# view res/layout/activity_register.xml #generated:58
+# view res/layout/activity_register.xml #generated:79
+# view res/layout/activity_register.xml #generated:98
+-keep class com.xgr.wonderful.view.DeletableEditText { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.xgr.wonderful.view.FeedBackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class com.xgr.wonderful.view.FinderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.xgr.wonderful.view.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.xgr.wonderful.view.LocationSourceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.xgr.wonderful.view.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.xgr.wonderful.view.MineActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:186
+-keep class com.xgr.wonderful.view.MineInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.xgr.wonderful.view.MineInfoEditActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:192
+-keep class com.xgr.wonderful.view.MineSoftActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.xgr.wonderful.view.NewsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.xgr.wonderful.view.OrderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:168
+-keep class com.xgr.wonderful.view.OrderInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.xgr.wonderful.view.RegisterAndLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.xgr.wonderful.view.SecondTradeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class com.xgr.wonderful.view.ShopActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.xgr.wonderful.view.ShopAllActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.xgr.wonderful.view.ShopItemActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class com.xgr.wonderful.view.SnowActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.xgr.wonderful.view.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:204
+-keep class com.xgr.wonderful.view.TableActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.xgr.wonderful.view.WindmillActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class com.xgr.wonderful.view.WindyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class com.xgr.wonderful.view.WsqActivity { <init>(...); }
+
+# view res/layout/activity_register.xml #generated:9
+-keep class com.xgr.wonderful.widget.ActionBar { <init>(...); }
+
+# view res/layout/actionbar.xml #generated:102
+-keep class com.xgr.wonderful.widget.ScrollingTextView { <init>(...); }
+
+# view res/layout/activity_register.xml #generated:130
+-keep class fr.castorflex.android.smoothprogressbar.SmoothProgressBar { <init>(...); }
+
+# view AndroidManifest.xml #generated:365
+-keep class org.android.agoo.service.ElectionService { <init>(...); }
+
+# view res/layout/item_show_picture.xml #generated:8
+-keep class uk.co.senab.photoview.PhotoView { <init>(...); }
+
+# onClick res/layout/header_award.xml #generated:8
+# onClick res/layout/header_home.xml #generated:8
+# onClick res/layout/header_mine_info.xml #generated:8
+-keepclassmembers class * { *** clickBack(...); }
+
+# onClick res/layout/header_mine_info_edit.xml #generated:8
+-keepclassmembers class * { *** clickCancel(...); }
+
+# onClick res/layout/header_mine_info.xml #generated:31
+-keepclassmembers class * { *** clickEdit(...); }
+
+# onClick res/layout/header_feedback.xml #generated:8
+-keepclassmembers class * { *** clickFeedBack(...); }
+
+# onClick res/layout/header_mine_info_edit.xml #generated:32
+-keepclassmembers class * { *** clickSave(...); }
+
+# onClick res/layout/header_soft.xml #generated:8
+-keepclassmembers class * { *** clickSoftBack(...); }
+
+# onClick res/layout/ad_detail_layout.xml #generated:18
+# onClick res/layout/ad_detail_layout.xml #generated:60
+-keepclassmembers class * { *** down(...); }
+
+# onClick res/layout/activity_main.xml #generated:20
+# onClick res/layout/activity_main.xml #generated:55
+# onClick res/layout/activity_main.xml #generated:85
+-keepclassmembers class * { *** onTabSelect(...); }
+
+# onClick res/layout/first_viewpager06.xml #generated:8
+-keepclassmembers class * { *** startbutton(...); }
+
+# onClick res/layout/include_chat_bottom_bar.xml #generated:18
+# onClick res/layout/include_chat_bottom_bar.xml #generated:26
+-keepclassmembers class * { *** toAction(...); }
+

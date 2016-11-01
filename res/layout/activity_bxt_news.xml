@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header_bxt_news" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <!-- 标题 -->
+            <TextView
+                android:id="@+id/tv_bxt_news_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="啦啦啦德玛西亚"
+                android:textColor="#2F4F4F"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- 讲座主题 -->
+            <LinearLayout
+                android:id="@+id/ll_bxt_news_topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="讲座主题"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_bxt_news_topic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="德玛西亚"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- 主讲人 -->
+            <LinearLayout
+                android:id="@+id/ll_bxt_news_speaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="主讲人"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_bxt_news_speaker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="C罗（罗++）"
+                    android:textSize="12sp" />
+            </LinearLayout>
+          
+            <!-- 讲座时间 -->
+            <LinearLayout
+                android:id="@+id/ll_bxt_news_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="讲座时间"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_bxt_news_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="2014年11月11日（周二）晚20：00"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            
+            <!-- 讲座地点 -->
+            <LinearLayout
+                android:id="@+id/ll_bxt_news_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="讲座地点"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_bxt_news_loc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="软件园"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- 主办单位 -->
+            <LinearLayout
+                android:id="@+id/ll_bxt_news_holder1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="主办单位"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_bxt_news_holder1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="学生会"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            
+            <!-- 承办单位 -->
+            <LinearLayout
+                android:id="@+id/ll_bxt_news_holder2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="承办单位"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_bxt_news_holder2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="小苹果战队"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            
+            <!-- 主讲内容提要 -->
+            <LinearLayout
+                android:id="@+id/ll_bxt_news_point"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="主讲内容提要"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_bxt_news_point"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:lineSpacingMultiplier="1.4"
+                    android:singleLine="false"
+                    android:text=" 1.打野与Gank\n 2.团队英雄选择\n 3.解析德邦三基友的使用特点。"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            
+            <!-- 主讲人简介 -->
+            <LinearLayout
+                android:id="@+id/ll_bxt_news_speaker_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="主讲人简介"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_bxt_news_speaker_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:lineSpacingMultiplier="1.4"
+                    android:text="盖老师，赵老师，嘉老师，"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
